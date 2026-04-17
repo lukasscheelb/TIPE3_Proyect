@@ -4,6 +4,36 @@ Aplicación de escritorio para gestionar propiedades inmobiliarias de forma loca
 
 El sistema guarda la información en archivos JSON locales y almacena las imágenes dentro de carpetas del proyecto o de la instalación, según el modo de uso.
 
+## Métodos de Uso
+
+### 1. Probar el programa sin modificar el código
+
+Si solo necesitas usar o probar el programa como aplicación normal de Windows, solicita el ejecutable al creador del proyecto.
+
+El archivo debería tener un nombre similar a:
+
+```text
+Gestión de Propiedades Setup 0.0.0.exe
+```
+
+En este caso no necesitas instalar Git, Node.js ni Visual Studio Code. Solo debes ejecutar el instalador y abrir el programa desde Windows.
+
+### 2. Modificar el código y ejecutar desde Visual Studio Code
+
+Si necesitas modificar el código, revisar la estructura del proyecto o seguir desarrollando nuevas funciones, debes clonar el repositorio y seguir el proceso de instalación para desarrollo indicado más abajo.
+
+En este caso necesitas instalar:
+
+- Git
+- Node.js LTS
+- Visual Studio Code
+
+Después de instalar las dependencias, puedes ejecutar el programa desde el código con:
+
+```powershell
+npm run desktop
+```
+
 ## Requisitos Previos
 
 Para desarrollar, ejecutar o generar el instalador desde el código fuente necesitas instalar:
